@@ -1,52 +1,53 @@
-.bg{
-    background:red !important;
-}
+
 .scrubber-icon {
 	font-weight: 900;
-    top:-5px;
+    top:-25px;
     left: -3px;
     cursor: crosshair;
 }
 .scrubber-icon:after {
     content:"";
     position: absolute;
-    top:11px;
-    bottom: 0;
-    left: 6px;
-    right: 0;
-    width:0px;
-    height: 1200px;
-    border-left: 2px solid red;
+    left:7px;
+    top:13px;
+    width:3px;
+    height: 120px;
+    background: red;
     z-index: 9999;
     cursor: crosshair;
 }
 .timeline_Numbers {
     position: relative;
-    top:-8px;
-    left: 3px;
-    height: 45px;
+    top:-25px;
     z-index: 9999;
 }
 .timeline-container{
-	background: #999;
+	background: #9F9;
     position: relative;
-    top:8px;
-    bottom: 0;
-    left: 20px;
-    right: 0;
       height: 245px;
-  overflow-y: hidden;
-
 }
 .timeline-container-header{
+    position: relative;
 	background: #666;
     width:100%;
-
-    height: 35px;
+    height: 30px;
 }
 .timelinePositioning{
     position: relative;
-    top:-8px;
-    left: 20px;
+    top:-25px;
     z-index: 9999;
+}
+.timeline-control-buttons{
+    background: #666;
+    width:100%;
+    height: 30px;
+}
+.timelineLayers{
+    background: #DDD;
+    width:100%;  
+}
+.timelineElement{
+    background-color: rgb(137, 128, 209);
+    height: 25px;
+    border-radius: 4.45px;
 }
